@@ -11,11 +11,6 @@ const content: SiteContent = {
   id: "pes-ias-pels",
   shortName: "IEEE Rwanda PES/IAS/PELS",
   fullName: "IEEE Rwanda PES / IAS / PELS Joint Chapter",
-  wordmark: {
-    lineTop: "IEEE Rwanda",
-    lineMain: "PES · IAS · PELS Joint Chapter",
-    lineSub: "Power & Energy · Industry Applications · Power Electronics",
-  },
   identifierLabel: "IEEE Rwanda Joint Chapter",
 
   headerTitle: ["IEEE PES/IAS/PELS", "Rwanda Joint Chapter"],
@@ -26,52 +21,24 @@ const content: SiteContent = {
 
   // Colours from the IEEE PES Identity Guidelines (primary IEEE Blue, secondary
   // PES green #78BE20, background grey #E6E7E8). Green is also the IAS colour.
-  colors: { brand: "#00629B", accent: "#78BE20", onAccent: "#002855", surface: "#E6E7E8" },
+  colors: { brand: "#00629B", accent: "#78BE20", surface: "#E6E7E8" },
 
-  slides: [
-    {
-      image: "/pes-ias-pels/hero/kigali-sunset.jpg",
-      alt: "Kigali city skyline at sunset",
-      title: "Powering Rwanda's energy transition.",
-      subtitle: "IEEE PES / IAS / PELS Rwanda Joint Chapter",
-      cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
-      credit: { name: "Jean Claude Akarikumutima / Unsplash", url: "https://unsplash.com/photos/b-HnOOPRfTI" },
-      focus: "center 60%",
-    },
-    {
-      image: "/pes-ias-pels/hero/solar-install.jpg",
-      alt: "An installer fixing solar panels in place",
-      title: "Renewables, storage and power electronics.",
-      subtitle: "Technical talks, workshops and Distinguished Lecturers",
-      cta: { label: "See our events", href: "/events/" },
-      credit: { name: "Markus Spiske / Unsplash", url: "https://unsplash.com/photos/rNn_TU8dvoY" },
-    },
-    {
-      image: "/pes-ias-pels/hero/powerlines-field.jpg",
-      alt: "Power transmission lines crossing green fields",
-      title: "Connecting industry, academia and students.",
-      subtitle: "Three IEEE societies, one community in Rwanda",
-      cta: { label: "Our societies", href: "/societies/" },
-      credit: { name: "Mariola Grobelska / Unsplash", url: "https://unsplash.com/photos/qHzhsmyh9j8" },
-    },
-  ],
-
+  // The photo, headline and button at the top of the home page.
   hero: {
-    eyebrow: "IEEE Rwanda Subsection · Region 8",
-    title: "Powering Rwanda's energy transition, together.",
-    subtitle:
-      "We bring together the engineers, researchers, students and companies working on power systems, power electronics and industrial applications in Rwanda.",
-    highlights: ["Technical talks", "Industry visits", "Distinguished Lecturers", "Mentorship"],
-    primary: { label: "Join the chapter", href: "/get-involved/" },
-    secondary: { label: "See upcoming events", href: "/events/" },
+    image: "/pes-ias-pels/hero/kigali-sunset.jpg",
+    alt: "Kigali city skyline at sunset",
+    title: "Powering Rwanda's energy transition.",
+    cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
+    credit: { name: "Jean Claude Akarikumutima / Unsplash", url: "https://unsplash.com/photos/b-HnOOPRfTI" },
+    focus: "center 60%",
   },
 
-  stats: [
-    { value: "3", label: "IEEE societies, one chapter" },
-    { value: "2026", label: "Year the Subsection launched" },
-    { value: "42k+", label: "IEEE PES members worldwide" },
-    { value: "160+", label: "Countries in the IEEE network" },
-  ],
+  // Shown beside "About us" on the home page. Remove to show the text on its own.
+  aboutPhoto: {
+    image: "/pes-ias-pels/hero/solar-install.jpg",
+    alt: "An installer fixing solar panels in place",
+    credit: { name: "Markus Spiske / Unsplash", url: "https://unsplash.com/photos/rNn_TU8dvoY" },
+  },
 
   about: {
     heading: "About the chapter",
@@ -105,7 +72,6 @@ const content: SiteContent = {
   ],
 
   focus: {
-    eyebrow: "Three societies",
     heading: "One chapter, three IEEE societies",
     intro: "Members of any of the three societies — and anyone curious about power and energy — are welcome at our events.",
     cards: [
@@ -140,7 +106,6 @@ const content: SiteContent = {
   },
 
   bodies: {
-    eyebrow: "About IEEE, PES, PELS & IAS",
     heading: "The global organisations behind our chapter",
     intro: "Joining IEEE gives you a global professional home; adding a society connects you to the specialists in your field. Our chapter brings all of them to Rwanda.",
     items: [

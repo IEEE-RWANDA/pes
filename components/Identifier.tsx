@@ -1,30 +1,9 @@
 // The site identifier (top-left of the header, and in the footer), built from the
-// OFFICIAL logo files in /public exactly as each sub-brand guideline describes.
+// OFFICIAL logo files in /public exactly as the sub-brand guidelines describe.
 //   light = on the white header   ·   dark = on the IEEE Dark Blue footer
 import { site } from "@/content";
 
 type Tone = "light" | "dark";
-
-/** IEEE Young Professionals logo + section identifier.
- *  YP guideline: add the Section name under the logo in IEEE Blue (Formata, Calibri or Verdana). */
-function YP({ tone }: { tone: Tone }) {
-  return (
-    <span className="flex flex-col items-end">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={tone === "light" ? "/yp/yp-logo.png" : "/yp/yp-logo-white.png"}
-        alt="IEEE Young Professionals"
-        className="h-6 w-auto sm:h-11"
-      />
-      <span
-        className={`-mt-0.5 font-bold tracking-wide sm:text-lg ${tone === "light" ? "text-ieee-blue" : "text-white"}`}
-        style={{ fontFamily: "Calibri, Verdana, 'Open Sans', sans-serif" }}
-      >
-        {site.identifierLabel}
-      </span>
-    </span>
-  );
-}
 
 /** PES | PELS | IAS joint-chapter lock-up.
  *  Large screens: the society wordmarks side by side, as on IEEE PES joint-chapter sites.
@@ -66,24 +45,8 @@ function Joint({ tone }: { tone: Tone }) {
   );
 }
 
-/** IEEE SIGHT logo + red "wedge" identifier box, recreated from the official
- *  SIGHT identifier template (HT guideline p. 8) with our group's name. */
-function Sight({ tone }: { tone: Tone }) {
-  return (
-    <svg viewBox="0 0 290.3 181.3" className="h-14 w-auto sm:h-20" role="img" aria-label={`IEEE SIGHT ${site.identifierLabel}`}>
-      <image href={tone === "light" ? "/sight/sight-logo.svg" : "/sight/sight-logo-white.svg"} x="0" y="0" width="290.3" height="132.5" />
-      <path d="M289.34 163.02V149.96H17.85L.47 167.34v13H272.03Z" fill="#BA0C2F" />
-      <text x="145" y="171.3" textAnchor="middle" fill="#FFFFFF" fontFamily="'Open Sans', Calibri, sans-serif" fontWeight="700" fontSize="19.5">
-        {site.identifierLabel}
-      </text>
-    </svg>
-  );
-}
-
 export default function Identifier({ tone = "light" }: { tone?: Tone }) {
-  if (site.id === "yp") return <YP tone={tone} />;
-  if (site.id === "pes-ias-pels") return <Joint tone={tone} />;
-  return <Sight tone={tone} />;
+  return <Joint tone={tone} />;
 }
 
 /** Official IEEE Master Brand. Websites must use black or white (not blue). */
