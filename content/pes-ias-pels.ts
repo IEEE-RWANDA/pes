@@ -185,10 +185,10 @@ const content: SiteContent = {
   },
 
   officers: [
-    { group: "Executive Committee", name: "Akabway Rurangwa", role: "Chair" },
-    { group: "Executive Committee", name: "Samantha Mugeni Niyoyita", role: "Vice Chair" },
-    { group: "Executive Committee", name: "Kayesu Ritah", role: "Secretary" },
-    { group: "Executive Committee", name: "Adonijah Ogara", role: "Treasurer" },
+    { group: "Executive Committee", name: "Akabway Rurangwa", role: "Chair", photo: "/pes-ias-pels/team/akabway-rurangwa.jpg" },
+    { group: "Executive Committee", name: "Samantha Mugeni Niyoyita", role: "Vice Chair", photo: "/pes-ias-pels/team/samantha-mugeni.jpg" },
+    { group: "Executive Committee", name: "Kayesu Ritah", role: "Secretary", photo: "/pes-ias-pels/team/kayesu-ritah.jpg" },
+    { group: "Executive Committee", name: "Adonijah Ogara", role: "Treasurer", photo: "/pes-ias-pels/team/adonijah-ogara.jpg" },
   ],
 
   events: [
