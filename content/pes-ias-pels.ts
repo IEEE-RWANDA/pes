@@ -25,12 +25,12 @@ const content: SiteContent = {
 
   // The photo, headline and button at the top of the home page.
   hero: {
-    image: "/pes-ias-pels/hero/kigali-sunset.jpg",
-    alt: "Kigali city skyline at sunset",
+    image: "/pes-ias-pels/hero/kigali-aerial.jpg",
+    alt: "Aerial view of Kigali, with a tree-lined boulevard and modern buildings",
     title: "Powering what's next.",
     cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
-    credit: { name: "Jean Claude Akarikumutima / Unsplash", url: "https://unsplash.com/photos/b-HnOOPRfTI" },
-    focus: "center 60%",
+    credit: { name: "Faustin Nkurunziza / Pexels", url: "https://www.pexels.com/photo/aerial-view-of-kigali-city-in-daylight-31466706/" },
+    focus: "center 45%",
   },
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
