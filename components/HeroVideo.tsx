@@ -50,7 +50,7 @@ export default function HeroVideo({ src, poster, focus }: { src: string; poster:
       <button
         type="button"
         onClick={toggle}
-        className="absolute bottom-3 left-3 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-black/40 text-white hover:bg-black/60 sm:left-auto sm:right-3 sm:bottom-8"
+        className="absolute bottom-2 left-3 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-black/40 text-white hover:bg-black/60"
         aria-label={playing ? "Pause background video" : "Play background video"}
       >
         {playing ? (

@@ -23,7 +23,7 @@ export default function Hero() {
         {h.cta && <div className="mt-8"><ButtonLink href={h.cta.href} variant="white">{h.cta.label}</ButtonLink></div>}
       </div>
       {h.video && h.videoCredits?.length ? (
-        <p className="absolute bottom-2 right-3 text-[11px] text-white/70">
+        <p className="absolute bottom-2 left-14 right-3 text-right text-[11px] leading-snug text-white/70">
           Video:{" "}
           {h.videoCredits.map((c, i) => (
             <span key={c.name}>
