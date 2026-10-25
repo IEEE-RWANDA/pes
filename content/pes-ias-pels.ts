@@ -25,22 +25,25 @@ const content: SiteContent = {
 
   // The photo, headline and button at the top of the home page.
   hero: {
-    image: "/pes-ias-pels/hero/kigali-poster.jpg",
-    alt: "Aerial view of Kigali and the Kigali Convention Centre",
-    // Short muted background video: Kigali, transmission lines, a solar farm, substations and EV charging.
+    image: "/pes-ias-pels/hero/energy-poster.jpg",
+    alt: "A hydroelectric dam, the first scene of the energy video",
+    // Short muted background video following energy from source to use:
+    // generation (hydro dam, solar farm) -> transmission (high-voltage lines) ->
+    // distribution (substation, local power lines) -> end use (Kigali, electric vehicle charging).
     // Remove this line to show only the photo.
     video: "/pes-ias-pels/hero/rwanda-energy.mp4",
     videoCredits: [
-      { name: "Rw_Creative", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
-      { name: "Athuman Komora Garisse", url: "https://www.pexels.com/video/power-lines-on-transmission-towers-9813696/" },
+      { name: "CityXcape", url: "https://www.pexels.com/video/drone-footage-of-power-plant-dam-6132733/" },
       { name: "Henrique Carmo", url: "https://www.pexels.com/video/expansive-aerial-view-of-solar-power-farm-30583775/" },
+      { name: "Athuman Komora Garisse", url: "https://www.pexels.com/video/power-lines-on-transmission-towers-9813696/" },
       { name: "Thanh Văn", url: "https://www.pexels.com/video/aerial-view-on-power-station-10416553/" },
-      { name: "Videas Cl", url: "https://www.pexels.com/video/a-large-electrical-substation-with-several-power-lines-27844418/" },
+      { name: "Skinny Tie Media", url: "https://www.pexels.com/video/power-lines-and-tall-posts-4849151/" },
+      { name: "Rw_Creative", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
       { name: "Kindel Media / Pexels", url: "https://www.pexels.com/video/charging-the-electric-car-9790212/" },
     ],
     title: "Powering what's next.",
     cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
-    credit: { name: "Rw_Creative / Pexels", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
+    credit: { name: "CityXcape / Pexels", url: "https://www.pexels.com/video/drone-footage-of-power-plant-dam-6132733/" },
   },
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
