@@ -96,6 +96,11 @@ export type SiteContent = {
   /** The photo, headline and button at the top of the home page.
    *  Photos live in /public/<unit>/hero/. Use your own event photos whenever you can. */
   hero: Photo & {
+    /** Optional short background video (muted, looping MP4 in /public/<unit>/hero/).
+     *  The photo above is shown before it loads, and instead of it for visitors who prefer reduced motion. */
+    video?: string;
+    /** Credits for the video clips, e.g. [{ name: "Jane Doe / Pexels", url: "https://www.pexels.com/video/..." }] */
+    videoCredits?: { name: string; url?: string }[];
     title: string;
     subtitle?: string;
     cta?: Link;

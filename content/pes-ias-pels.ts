@@ -25,12 +25,17 @@ const content: SiteContent = {
 
   // The photo, headline and button at the top of the home page.
   hero: {
-    image: "/pes-ias-pels/hero/kigali-aerial.jpg",
-    alt: "Aerial view of Kigali, with a tree-lined boulevard and modern buildings",
+    image: "/pes-ias-pels/hero/solar-farm-poster.jpg",
+    alt: "Aerial view of a large solar farm, followed by Kigali and the Kigali Convention Centre",
+    // Short muted background video: a solar farm, then Kigali. Remove this line to show only the photo.
+    video: "/pes-ias-pels/hero/rwanda-energy.mp4",
+    videoCredits: [
+      { name: "Henrique Carmo / Pexels", url: "https://www.pexels.com/video/expansive-aerial-view-of-solar-power-farm-30583775/" },
+      { name: "Rw_Creative / Pexels", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
+    ],
     title: "Powering what's next.",
     cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
-    credit: { name: "Faustin Nkurunziza / Pexels", url: "https://www.pexels.com/photo/aerial-view-of-kigali-city-in-daylight-31466706/" },
-    focus: "center 45%",
+    credit: { name: "Henrique Carmo / Pexels", url: "https://www.pexels.com/video/expansive-aerial-view-of-solar-power-farm-30583775/" },
   },
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
