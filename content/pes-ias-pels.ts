@@ -35,10 +35,9 @@ const content: SiteContent = {
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
   aboutPhoto: {
-    image: "/pes-ias-pels/about-electronics-lab.jpg",
-    alt: "A young engineer soldering a circuit board in an electronics lab",
-    credit: { name: "ThisIsEngineering / Pexels", url: "https://www.pexels.com/photo/woman-soldering-pcb-in-school-19895844/" },
-    focus: "center 40%",
+    image: "/pes-ias-pels/about-transmission.jpg",
+    alt: "High-voltage transmission towers across an open field at dusk",
+    credit: { name: "Robert So / Pexels", url: "https://www.pexels.com/photo/high-voltage-transmission-towers-at-dusk-29348617/" },
   },
 
   about: {
