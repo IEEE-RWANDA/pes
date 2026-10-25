@@ -27,7 +27,7 @@ const content: SiteContent = {
   hero: {
     image: "/pes-ias-pels/hero/kigali-sunset.jpg",
     alt: "Kigali city skyline at sunset",
-    title: "Powering Rwanda's energy transition.",
+    title: "Powering what's next.",
     cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
     credit: { name: "Jean Claude Akarikumutima / Unsplash", url: "https://unsplash.com/photos/b-HnOOPRfTI" },
     focus: "center 60%",
