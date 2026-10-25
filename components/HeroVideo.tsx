@@ -40,7 +40,7 @@ export default function HeroVideo({ src, poster, focus }: { src: string; poster:
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="auto"
         aria-hidden="true"
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
