@@ -35,9 +35,10 @@ const content: SiteContent = {
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
   aboutPhoto: {
-    image: "/pes-ias-pels/about-control-room.jpg",
-    alt: "Two engineers in hard hats and safety vests reviewing system diagrams on screens in a control room",
-    focus: "center 30%",
+    image: "/pes-ias-pels/about-electronics-lab.jpg",
+    alt: "A young engineer soldering a circuit board in an electronics lab",
+    credit: { name: "ThisIsEngineering / Pexels", url: "https://www.pexels.com/photo/woman-soldering-pcb-in-school-19895844/" },
+    focus: "center 40%",
   },
 
   about: {
