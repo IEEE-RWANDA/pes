@@ -35,9 +35,9 @@ const content: SiteContent = {
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
   aboutPhoto: {
-    image: "/pes-ias-pels/hero/solar-install.jpg",
-    alt: "An installer fixing solar panels in place",
-    credit: { name: "Markus Spiske / Unsplash", url: "https://unsplash.com/photos/rNn_TU8dvoY" },
+    image: "/pes-ias-pels/about-control-room.jpg",
+    alt: "Two engineers in hard hats and safety vests reviewing system diagrams on screens in a control room",
+    focus: "center 30%",
   },
 
   about: {
