@@ -203,21 +203,13 @@ const content: SiteContent = {
       registerUrl: "https://lnkd.in/dfx5kXuR",
     },
     {
-      title: "Tartan Connect 2026",
-      date: "2026-06-19",
-      location: "CMU-Africa, Kigali",
-      type: "Industry Engagement",
-      organiser: "IEEE CMU-Africa PES/IAS/PELS Student Branch Chapter",
-      summary: "An IEEE Region 8 Bridging Students with Industry event, with SLS Energy as industry partner, connecting students with practitioners in Rwanda's energy sector.",
-    },
-    {
       title: "Rwanda Simulation Synergy",
       date: "2026-05-22",
       time: "09:00",
       location: "Carnegie Mellon University Africa, Kigali",
       type: "Industry Workshop",
       organiser: "IEEE CMU-Africa IAS/PELS/PES Joint Student Branch Chapter",
-      summary: "A workshop on numerical simulation and smart electrical systems. 43 participants from 12 nationalities joined technical talks, a panel, a student showcase and a live Ansys Discovery demo, and 12 new IEEE IAS student members signed up. Partners included Ansys, Ampersand Energy, SLS Energy, TRL Space and Neotix Robotics.",
+      summary: "An industry networking workshop on numerical simulation and smart electrical systems, held with Ansys and the IEEE Industry Applications Society. 43 participants from 12 nationalities explored how digital modelling and smart technologies solve real engineering problems, through technical talks, a panel, a student showcase and a live Ansys Discovery demo. For many it was their first time using professional simulation software, and 12 joined IEEE IAS as student members.",
     },
     {
       title: "IEEE Young Professionals: Benefits and Opportunities",
