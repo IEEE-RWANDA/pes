@@ -35,9 +35,9 @@ const content: SiteContent = {
 
   // Shown beside "About us" on the home page. Remove to show the text on its own.
   aboutPhoto: {
-    image: "/pes-ias-pels/about-transmission.jpg",
-    alt: "High-voltage transmission towers across an open field at dusk",
-    credit: { name: "Robert So / Pexels", url: "https://www.pexels.com/photo/high-voltage-transmission-towers-at-dusk-29348617/" },
+    image: "/pes-ias-pels/about-substation.jpg",
+    alt: "High-voltage equipment in an electrical substation",
+    credit: { name: "Pixabay / Pexels", url: "https://www.pexels.com/photo/gray-and-black-power-transmission-station-236089/" },
   },
 
   about: {
