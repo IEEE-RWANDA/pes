@@ -212,15 +212,6 @@ const content: SiteContent = {
       summary: "An industry networking workshop on numerical simulation and smart electrical systems, held with Ansys and the IEEE Industry Applications Society. 43 participants from 12 nationalities explored how digital modelling and smart technologies solve real engineering problems, through technical talks, a panel, a student showcase and a live Ansys Discovery demo. For many it was their first time using professional simulation software, and 12 joined IEEE IAS as student members.",
     },
     {
-      title: "IEEE Young Professionals: Benefits and Opportunities",
-      date: "2026-05-05",
-      time: "18:30–19:30",
-      location: "Online (Zoom)",
-      type: "Webinar",
-      organiser: "IEEE Rwanda Young Professionals, with IEEE Region 8",
-      summary: "Dr Mohamed Saeed Darweesh, Chair of the IEEE Region 8 YP Committee, and Moataz Alaa shared how early-career engineers can get involved in IEEE YP, from networking and volunteering to funding programmes and Region 8 initiatives.",
-    },
-    {
       title: "Tartan Synergy: Securing the Grid",
       date: "2026-04-29",
       time: "14:00–17:00",
