@@ -239,7 +239,7 @@ const content: SiteContent = {
       time: "16:00–17:00",
       location: "Online (Zoom)",
       type: "Webinar",
-      organiser: "IEEE University of Rwanda and IEEE CMU-Africa Student Branches, with IEEE Rwanda",
+      organiser: "IEEE CMU-Africa IAS/PELS/PES Joint Student Branch Chapter",
       summary: "IEEE IAS Ambassador Akabway Rurangwa introduced the Industry Applications Society and how it links engineering theory to real-world practice. Students and young professionals learned about the benefits of IAS membership, its global network, and opportunities to get involved locally.",
     },
     ...SUBSECTION_EVENTS,
