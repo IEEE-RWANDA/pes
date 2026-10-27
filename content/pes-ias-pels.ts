@@ -37,7 +37,6 @@ const content: SiteContent = {
       { name: "Henrique Carmo", url: "https://www.pexels.com/video/expansive-aerial-view-of-solar-power-farm-30583775/" },
       { name: "Athuman Komora Garisse", url: "https://www.pexels.com/video/power-lines-on-transmission-towers-9813696/" },
       { name: "Thanh Văn", url: "https://www.pexels.com/video/aerial-view-on-power-station-10416553/" },
-      { name: "Videas Cl", url: "https://www.pexels.com/video/a-large-electrical-substation-with-several-power-lines-27844418/" },
       { name: "Rw_Creative", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
       { name: "Gustavo Fring / Pexels", url: "https://www.pexels.com/video/charging-an-electric-car-4817952/" },
     ],
