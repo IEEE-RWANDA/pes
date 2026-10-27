@@ -29,7 +29,7 @@ const content: SiteContent = {
     alt: "A hydroelectric dam, the first scene of the energy video",
     // Short muted background video following energy from source to use:
     // generation (hydro dam, solar farm) -> transmission (high-voltage lines) ->
-    // distribution (substation, local power lines) -> end use (Kigali, electric vehicle charging).
+    // distribution (substation, local power lines) -> end use (Kigali, electric cars charging at a solar-powered charging station).
     // Remove this line to show only the photo.
     video: "/pes-ias-pels/hero/rwanda-energy.mp4",
     videoCredits: [
@@ -39,7 +39,7 @@ const content: SiteContent = {
       { name: "Thanh Văn", url: "https://www.pexels.com/video/aerial-view-on-power-station-10416553/" },
       { name: "Skinny Tie Media", url: "https://www.pexels.com/video/power-lines-and-tall-posts-4849151/" },
       { name: "Rw_Creative", url: "https://www.pexels.com/video/aerial-view-of-kigali-convention-center-35145690/" },
-      { name: "Kindel Media / Pexels", url: "https://www.pexels.com/video/charging-the-electric-car-9790212/" },
+      { name: "Kindel Media / Pexels", url: "https://www.pexels.com/video/a-solar-charging-station-at-a-parking-lot-9788683/" },
     ],
     title: "Powering what's next.",
     cta: { label: "Join IEEE", href: "https://www.ieee.org/membership/join/index.html" },
