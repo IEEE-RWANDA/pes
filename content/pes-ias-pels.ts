@@ -233,6 +233,15 @@ const content: SiteContent = {
       organiser: "IEEE CMU-Africa and IEEE University of Rwanda Student Branches, with IEEE Young Professionals",
       summary: "A workshop on cybersecurity for energy infrastructure in Rwanda and the region. It opened with a keynote by Musabyimana Josee on grid cybersecurity, followed by a panel with Muyombano Happy Axel, Chisom Ogbogu and Jamiu Dahunsi, moderated by Mariamawit Arega. Kipngeno Koech closed with IEEE opportunities for students and the vision of the new IEEE Rwanda Subsection.",
     },
+    {
+      title: "Introduction to IEEE Industry Applications Society (IAS)",
+      date: "2026-04-15",
+      time: "16:00–17:00",
+      location: "Online (Zoom)",
+      type: "Webinar",
+      organiser: "IEEE University of Rwanda and IEEE CMU-Africa Student Branches, with IEEE Rwanda",
+      summary: "IEEE IAS Ambassador Akabway Rurangwa introduced the Industry Applications Society and how it links engineering theory to real-world practice. Students and young professionals learned about the benefits of IAS membership, its global network, and opportunities to get involved locally.",
+    },
     ...SUBSECTION_EVENTS,
   ],
 
