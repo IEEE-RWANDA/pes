@@ -175,26 +175,14 @@ export type SiteContent = {
 };
 
 export type Project = {
-  /** Used for the link to this project on the Projects page, e.g. "bugesera-smart-irrigation". */
+  /** Used for the link to this project, e.g. "bugesera-smart-irrigation". */
   id: string;
   title: string;
   /** e.g. "Funded · Starting", "In progress", "Completed" */
   status: string;
   location: string;
-  /** One or two sentences shown at the top. */
-  summary: string;
-  /** Short paragraphs explaining the need. */
-  problem: string[];
-  /** Picks a built-in diagram for this project, if any. */
-  diagram?: "solar-gravity-irrigation";
-  /** How the system works, as numbered steps. */
-  howItWorks: { title: string; text: string }[];
-  /** Key figures, e.g. { label: "Area irrigated", value: "0.5 ha" } */
-  facts: { label: string; value: string }[];
-  timeline: { period: string; phase: string; text: string }[];
-  /** Expected results. Say "target" until they are measured. */
-  impact: string[];
-  partners: { name: string; role: string; url?: string }[];
-  funding: { text: string; links?: Link[] };
-  team?: { name: string; role: string }[];
+  /** A few short paragraphs describing the project. */
+  description: string[];
+  /** One line on who funds it, with optional links. */
+  funding?: { text: string; links?: Link[] };
 };

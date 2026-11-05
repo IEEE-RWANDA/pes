@@ -49,7 +49,7 @@ const content: SiteContent = {
   announcement: {
     label: "Grant awarded",
     title: "EPICS in IEEE funds our solar-powered smart irrigation project in Bugesera",
-    text: "Our project was one of 30 from 15 countries selected for EPICS in IEEE funding in 2026, supported by the IEEE Industry Applications Society. Solar power will pump water into an elevated tank, and gravity will carry it through drip lines to a fruit cooperative's farm in Rilima, Bugesera, with sensors deciding when each zone needs water.",
+    text: "Our solar-powered irrigation project for fruit farmers in Bugesera was selected for EPICS in IEEE funding, with support from the IEEE Industry Applications Society.",
     link: { label: "See the project", href: "/projects/#bugesera-smart-irrigation" },
   },
 
@@ -209,77 +209,16 @@ const content: SiteContent = {
     {
       id: "bugesera-smart-irrigation",
       title: "Adaptive Solar-Powered Smart Irrigation System for Smallholder Fruit Farmers in Bugesera, Rwanda",
-      status: "EPICS in IEEE grant · Getting started",
-      location: "Rilima, Bugesera District, Eastern Province, Rwanda",
-      summary:
-        "A solar-powered pump lifts water into an elevated tank, and gravity carries it through drip lines to the farm of the KOTMIR fruit cooperative. Soil sensors and a student-built controller decide when each part of the field needs water, using only the solar energy available.",
-      problem: [
-        "Bugesera is Rwanda's most drought-prone district, with about 835 mm of rain a year against a national average of about 1,200 mm. Smallholder fruit farmers there lose an estimated 30 to 40 percent of their produce each year.",
-        "Members of the KOTMIR cooperative still water their mango, avocado and vegetable plots by hand with buckets, which takes 4 to 6 hours a day and leaves some areas overwatered and others dry. The cooperative already runs a solar cold store funded through IEEE IAS, but in dry spells there is not enough good produce to fill it.",
-      ],
-      diagram: "solar-gravity-irrigation",
-      howItWorks: [
-        {
-          title: "Solar pumping",
-          text: "Two 400 W solar panels with a charge controller and a lithium (LiFePO4) battery run a DC pump that lifts water from the cooperative's borehole.",
-        },
-        {
-          title: "Elevated tank",
-          text: "The pump fills a 2,000 litre tank raised 4 to 5 metres on a concrete platform. The height gives the water enough pressure to flow on its own, with no extra pumping energy.",
-        },
-        {
-          title: "Gravity-fed drip lines",
-          text: "Gravity carries water from the tank through low-pressure drip lines to 0.5 hectares of crops, split into six zones that can each be switched on and off with a valve.",
-        },
-        {
-          title: "Smart control and data",
-          text: "Soil moisture sensors feed a student-built ESP32 controller that waters a zone only when the soil is dry and there is enough solar energy. A LoRa radio sends daily data to the cold store about 2 km away.",
-        },
-      ],
-      facts: [
-        { label: "Crop area", value: "0.5 ha" },
-        { label: "Solar power", value: "800 W" },
-        { label: "Water tank", value: "2,000 L" },
-        { label: "Drip zones", value: "6" },
-        { label: "Cooperative", value: "36 members" },
-        { label: "Duration", value: "12 months" },
-      ],
-      timeline: [
-        { period: "Months 1–2", phase: "Design", text: "Site survey and borehole testing, system design, and planning meetings with cooperative members." },
-        { period: "Months 3–4", phase: "Prototype", text: "Buy parts from local suppliers, then build and bench-test the sensors, controller and radio link in the CMU-Africa lab." },
-        { period: "Months 5–7", phase: "Install", text: "Install the solar pump, tank platform, drip lines and sensors on the farm, and connect the data link to the cold store." },
-        { period: "Months 8–10", phase: "Test and train", text: "Fine-tune the watering schedule with field data, run three farmer training workshops in Kinyarwanda, and hold an open demonstration day." },
-        { period: "Months 11–12", phase: "Evaluate", text: "Measure results against the starting point, report to EPICS in IEEE, and publish the designs and code as open source." },
-      ],
-      impact: [
-        "Target: use 30 to 40 percent less water for each unit of crop produced.",
-        "Target: raise mango, avocado and vegetable yields by 15 to 25 percent.",
-        "Free cooperative members, two thirds of whom are women, from hours of daily hand-watering.",
-        "Keep the cold store fuller and reduce produce lost while waiting for storage.",
-        "Share an open-source design that other cooperatives in Bugesera can copy.",
-        "Give 12 students hands-on experience in solar power, embedded systems and community engineering.",
-      ],
-      partners: [
-        { name: "KOTMIR Cooperative", role: "Fruit farming cooperative in Rilima. Provides the farm and borehole, helps with installation, and will own and maintain the system." },
-        { name: "Africa Development Promise (ADP)", role: "Community partner. Links the team with KOTMIR, organises farmer training, and hosts the data receiver at the cold store." },
-        { name: "IEEE CMU-Africa IAS/PELS/PES Joint Student Branch Chapter", role: "Student members design, build, install and test the system." },
-        { name: "IEEE Rwanda Subsection", role: "Manages the grant funds and connects the project to IEEE volunteers in Rwanda." },
+      status: "EPICS in IEEE grant · Starting",
+      location: "Rilima, Bugesera District, Rwanda",
+      description: [
+        "Bugesera is one of Rwanda's driest districts, and members of the KOTMIR fruit cooperative still water their mango, avocado and vegetable plots by hand.",
+        "With our partner Africa Development Promise, we will install a solar-powered pump that fills an elevated reservoir tank. Gravity then carries the water through drip lines to the farm, and soil sensors help decide when each part of the field needs water. Students will also train cooperative members to run and maintain the system.",
       ],
       funding: {
-        text: "Funded by EPICS in IEEE (Engineering Projects in Community Service), with support from the IEEE Industry Applications Society. It is one of 30 service-learning projects from 15 countries approved in 2026.",
-        links: [
-          { label: "EPICS in IEEE", href: "https://epics.ieee.org" },
-          { label: "IEEE Industry Applications Society", href: "https://ias.ieee.org" },
-        ],
+        text: "Funded by EPICS in IEEE, with support from the IEEE Industry Applications Society.",
+        links: [{ label: "EPICS in IEEE", href: "https://epics.ieee.org" }],
       },
-      team: [
-        { name: "Kayesu Ritah", role: "Project Lead" },
-        { name: "Akabway Rurangwa", role: "Co-Lead" },
-        { name: "Gabriel Mpuhwenzimana", role: "Technical Lead" },
-        { name: "Kipngeno Koech", role: "Treasurer" },
-        { name: "Mariamawit Arega", role: "Secretary" },
-        { name: "Simenya Jonathan", role: "Media Coordinator" },
-      ],
     },
   ],
 
