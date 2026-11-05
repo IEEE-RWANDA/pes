@@ -212,8 +212,8 @@ const content: SiteContent = {
       status: "EPICS in IEEE grant · Starting",
       location: "Rilima, Bugesera District, Rwanda",
       description: [
-        "Bugesera is one of Rwanda's driest districts, and members of the KOTMIR fruit cooperative still water their mango, avocado and vegetable plots by hand.",
-        "With our partner Africa Development Promise, we will install a solar-powered pump that fills an elevated reservoir tank. Gravity then carries the water through drip lines to the farm, and soil sensors help decide when each part of the field needs water. Students will also train cooperative members to run and maintain the system.",
+        "Bugesera is one of Rwanda's driest districts, and many farmers still water their fruits and vegetable plots by hand.",
+        "With our development partners, we will install a solar-powered irrigation system that fills an elevated reservoir tank. Gravity then carries the water through drip lines to the farm, and soil sensors help decide when each part of the field needs water. Students and young professionals will also train cooperative members to run and maintain the system.",
       ],
       funding: {
         text: "Funded by EPICS in IEEE, with support from the IEEE Industry Applications Society.",
