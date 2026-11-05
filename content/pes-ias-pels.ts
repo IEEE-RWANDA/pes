@@ -296,10 +296,9 @@ const content: SiteContent = {
     {
       category: "Society resources",
       items: [
-        { title: "IEEE PES", description: "Power & Energy Society home page.", url: "https://www.ieee-pes.org" },
-        { title: "PES Resource Center", description: "Tutorials, webinars and technical reports.", url: "https://resourcecenter.ieee-pes.org" },
-        { title: "IEEE IAS", description: "Industry Applications Society home page.", url: "https://ias.ieee.org" },
-        { title: "IEEE PELS", description: "Power Electronics Society home page.", url: "https://www.ieee-pels.org" },
+        { title: "IEEE PES Resource Center", description: "Webinars, tutorials, technical reports and courses from the Power & Energy Society.", url: "https://resourcecenter.ieee-pes.org/" },
+        { title: "IEEE IAS Resource Center", description: "Webinars, tutorials and conference content from the Industry Applications Society.", url: "https://resourcecenter.ias.ieee.org/" },
+        { title: "IEEE PELS Resource Center", description: "Webinars, tutorials and conference content from the Power Electronics Society.", url: "https://resourcecenter.ieee-pels.org/" },
       ],
     },
     COMMON_RESOURCES,
