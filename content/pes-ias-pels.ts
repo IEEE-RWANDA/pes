@@ -209,7 +209,7 @@ const content: SiteContent = {
     {
       id: "bugesera-smart-irrigation",
       title: "Adaptive Solar-Powered Smart Irrigation System for Smallholder Fruit Farmers in Bugesera, Rwanda",
-      status: "EPICS in IEEE grant · Starting",
+      status: "EPICS in IEEE Grant",
       location: "Rilima, Bugesera District, Rwanda",
       description: [
         "Bugesera is one of Rwanda's driest districts, and many farmers still water their fruits and vegetable plots by hand.",
