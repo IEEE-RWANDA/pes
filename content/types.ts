@@ -106,8 +106,14 @@ export type SiteContent = {
     cta?: Link;
   };
 
+  /** Optional announcement shown under the home page photo. Remove it to hide the box. */
+  announcement?: { label: string; title: string; text: string; link?: Link; image?: { src: string; alt: string } };
+
   /** Optional second photo, shown beside "About us" on the home page. */
   aboutPhoto?: Photo;
+
+  /** Optional community projects. If there is at least one, a "Projects" page appears in the menu. */
+  projects?: Project[];
 
   about: {
     heading: string;
@@ -166,4 +172,29 @@ export type SiteContent = {
   };
 
   social: { linkedin?: string; instagram?: string; x?: string; facebook?: string; youtube?: string };
+};
+
+export type Project = {
+  /** Used for the link to this project on the Projects page, e.g. "bugesera-smart-irrigation". */
+  id: string;
+  title: string;
+  /** e.g. "Funded · Starting", "In progress", "Completed" */
+  status: string;
+  location: string;
+  /** One or two sentences shown at the top. */
+  summary: string;
+  /** Short paragraphs explaining the need. */
+  problem: string[];
+  /** Picks a built-in diagram for this project, if any. */
+  diagram?: "solar-gravity-irrigation";
+  /** How the system works, as numbered steps. */
+  howItWorks: { title: string; text: string }[];
+  /** Key figures, e.g. { label: "Area irrigated", value: "0.5 ha" } */
+  facts: { label: string; value: string }[];
+  timeline: { period: string; phase: string; text: string }[];
+  /** Expected results. Say "target" until they are measured. */
+  impact: string[];
+  partners: { name: string; role: string; url?: string }[];
+  funding: { text: string; links?: Link[] };
+  team?: { name: string; role: string }[];
 };

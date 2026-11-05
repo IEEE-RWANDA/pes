@@ -7,6 +7,7 @@ export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about/" },
   ...(site.extraPage ? [{ label: site.extraPage.title, href: `/${site.extraPage.slug}/` }] : []),
+  ...(site.projects?.length ? [{ label: "Projects", href: "/projects/" }] : []),
   { label: "Team", href: "/team/" },
   { label: "Events", href: "/events/" },
   { label: "Get Involved", href: "/get-involved/" },

@@ -17,6 +17,7 @@ function buildIndex(): Entry[] {
     e.push({ title: site.extraPage.title, text: site.extraPage.intro, href: `/${site.extraPage.slug}/`, kind: "Page" });
     site.extraPage.cards.forEach((c) => e.push({ title: c.title, text: c.description, href: `/${site.extraPage!.slug}/`, kind: site.extraPage!.title }));
   }
+  site.projects?.forEach((p) => e.push({ title: p.title, text: [p.summary, ...p.problem, p.location].join(" "), href: `/projects/#${p.id}`, kind: "Project" }));
   site.bodies?.items.forEach((b) => e.push({ title: b.question, text: b.description, href: "/about/", kind: "About IEEE" }));
   site.events.forEach((ev) => e.push({ title: ev.title, text: `${ev.type} ${ev.location} ${ev.summary} ${ev.date ?? ""}`, href: "/events/", kind: "Event" }));
   site.officers.forEach((o) => e.push({ title: o.name, text: `${o.role} ${o.group} ${o.affiliation ?? ""}`, href: "/team/", kind: "Team" }));

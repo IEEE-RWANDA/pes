@@ -2,6 +2,7 @@
 import { site } from "@/content";
 import { todayKigali } from "@/lib/dates";
 import EventList from "@/components/EventList";
+import Announcement from "@/components/Announcement";
 import Hero from "@/components/Hero";
 import NextEvent from "@/components/NextEvent";
 import { BodiesSection } from "@/components/Sections";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Announcement />
       <NextEvent buildDate={buildDate} />
 
       <section>
